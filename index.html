@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 40%;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: auto;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .info {
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .info b {
+            font-weight: bold;
+        }
+        .info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .info a:hover {
+            text-decoration: underline;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #1c337e;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background-color: #070e24;
+            transform: scale(1.05);
+        }
+        .button-left {
+            margin-right: auto;
+        }
+        .button-right {
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-pic">
+            <img src="public/pic.jpg" alt="Profile Picture">
+        </div>
+        <div class="name">Thanathan Chansuk</div>
+        <div class="info-container">
+            <div class="info"><b>Major:</b> <a href="https://cpre.eng.kmutnb.ac.th/" target="_blank">Computer Engineering@KMUTNB</a></div>
+            <div class="info"><b>Phone:</b> 061-365-xxxx</div>
+            <div class="info"><b>Email:</b> s66010xxxxxxxx@email.kmutnb.ac.th</div>
+            <div class="info"><b>Youtube:</b> <a href="https://youtube.com/@hu_fyk?si=_4RTEmVyECYgl8yl" target="_blank">@hu_fyuk</a></div>
+            <div class="info"><b>Github:</b> <a href="https://github.com/C-tha-Nathan" target="_blank">C-tha-Nathan</a></div>
+        </div>
+        <div class="button-container">
+            <a href="me_as_computer_engineer.html" class="button button-left">← Me as Computer Engineer</a>
+            <a href="my_kmutnb.html" class="button button-right">My KMUTNB →</a>
+        </div>
+    </div>
+</body>
+</html>
